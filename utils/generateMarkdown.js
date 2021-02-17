@@ -8,7 +8,8 @@ ${data.installation}
 ## Contributors
 ${data.contribute}
 ## Questions
-https://github.com/${data.username}
+Github profile: https://github.com/${data.username}
+email: ${data.email}
 `;
 }
 

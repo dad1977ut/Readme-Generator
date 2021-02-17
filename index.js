@@ -25,8 +25,13 @@ inquirer
     },
     {
       type: "input",
-      message: "What is your github username",
+      message: "Enter your github username",
       name: "username",
+    },
+    {
+      type: "input",
+      message: "Enter your email",
+      name: "email",
     },
   ])
   .then((response) => {
