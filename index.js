@@ -20,8 +20,13 @@ inquirer
     },
     {
       type: "input",
-      message: "Who Contribute to the project",
+      message: "Who Contributed to the project",
       name: "contribute",
+    },
+    {
+      type: "input",
+      message: "What is your github username",
+      name: "username",
     },
   ])
   .then((response) => {

@@ -7,6 +7,8 @@ ${data.description}
 ${data.installation}
 ## Contributors
 ${data.contribute}
+## Questions
+https://github.com/${data.username}
 `;
 }
 
