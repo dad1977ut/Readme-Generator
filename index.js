@@ -1,4 +1,5 @@
 const inquirer = require("inquirer");
+const fs = require("fs");
 const generater = require("./utils/generateMarkdown.js");
 
 inquirer
@@ -37,4 +38,5 @@ inquirer
   .then((response) => {
     console.log(response);
     console.log(generater(response));
+    fs.writeFileSync("README.md", generater(response));
   });
