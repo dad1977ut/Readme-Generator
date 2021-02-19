@@ -5,13 +5,15 @@ function generateMarkdown(data) {
   1. [Description](#description)
   2. [Installation](#installation)
   3. [Contributors](#contributors)
-  4. [Questions](#questions)
+  4. [Tests](#tests)
+  5. [Questions](#questions)
 ## Description
 ${data.description}
 ## Installation
 ${data.installation}
 ## Contributors
 ${data.contribute}
+## Tests
 ## Questions
 Github profile: https://github.com/${data.username}
 email: ${data.email}
